@@ -1,4 +1,4 @@
-baseURL = 'https://phamminhtuan.github.io' # Sau này thay bằng link GitHub của bạn
+baseURL = 'https://phamminhtuangit.github.io' # Sau này thay bằng link GitHub của bạn
 languageCode = 'vi'
 title = 'Control & AI Lab'
 theme = 'PaperMod'
