@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Python on Control &amp; AI Lab</title>
+    <link>http://localhost:1313/PhamMinhTuanGit.io/tags/python/</link>
+    <description>Recent content in Python on Control &amp; AI Lab</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>vi</language>
+    <lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/PhamMinhTuanGit.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ứng dụng LQR trong Điều khiển cân bằng</title>
+      <link>http://localhost:1313/PhamMinhTuanGit.io/posts/first-post/</link>
+      <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/PhamMinhTuanGit.io/posts/first-post/</guid>
+      <description>&lt;p&gt;Chào mừng đến với blog của tôi. Đây là ví dụ về cách viết bài kỹ thuật.&lt;/p&gt;
+&lt;h2 id=&#34;1-mô-hình-toán-học&#34;&gt;1. Mô hình toán học&lt;/h2&gt;
+&lt;p&gt;Phương trình trạng thái của hệ thống (State-space):&lt;/p&gt;
+&lt;p&gt;$$
+\dot{x} = Ax + Bu
+$$&lt;/p&gt;
+&lt;p&gt;Trong đó hàm mục tiêu $J$ cần tối thiểu hóa là:&lt;/p&gt;
+&lt;p&gt;$$
+J = \int_{0}^{\infty} (x^T Q x + u^T R u) dt
+$$&lt;/p&gt;
+&lt;h2 id=&#34;2-giải-thuật-python&#34;&gt;2. Giải thuật (Python)&lt;/h2&gt;
+&lt;p&gt;Dưới đây là code Python để giải phương trình Riccati:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

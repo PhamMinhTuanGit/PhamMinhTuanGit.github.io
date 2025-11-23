@@ -1,0 +1,33 @@
+baseURL = 'https://github.com/PhamMinhTuanGit.io/' # Sau này thay bằng link GitHub của bạn
+languageCode = 'vi'
+title = 'Control & AI Lab'
+theme = 'PaperMod'
+
+[params]
+  # Tùy chỉnh giao diện
+  defaultTheme = "auto" # Tự động chuyển Dark/Light mode
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true # Nút copy code tiện lợi
+
+  # Profile hiển thị ở trang chủ
+  [params.homeInfoParams]
+    Title = "Hi there 👋, I'm Minh-Tuan Pham"
+    Content = """
+    Sinh viên K67 - ĐH Bách Khoa Hà Nội (HUST).
+    Major: Advanced Control | Deep Learning | Robotics.
+    """
+
+  # Mạng xã hội (thay link của bạn vào)
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/PhamMinhTuanGit"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/tuanphamminh1708/"
+
+  # Kích hoạt MathJax để hiển thị công thức toán học (RẤT QUAN TRỌNG VỚI BẠN)
+  [params.assets]
+    disableHLJS = true
