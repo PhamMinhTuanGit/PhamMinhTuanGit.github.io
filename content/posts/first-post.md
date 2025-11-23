@@ -10,15 +10,11 @@ Chào mừng đến với blog của tôi. Đây là ví dụ về cách viết 
 ## 1. Mô hình toán học
 Phương trình trạng thái của hệ thống (State-space):
 
-$$
-\dot{x} = Ax + Bu
-$$
+$\dot{x} = Ax + Bu$
 
 Trong đó hàm mục tiêu $J$ cần tối thiểu hóa là:
 
-$$
-J = \int_{0}^{\infty} (x^T Q x + u^T R u) dt
-$$
+$J = \int_{0}^{\infty} (x^T Q x + u^T R u) dt$
 
 ## 2. Giải thuật (Python)
 Dưới đây là code Python để giải phương trình Riccati:
