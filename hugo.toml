@@ -31,3 +31,8 @@ theme = 'PaperMod'
   # Kích hoạt MathJax để hiển thị công thức toán học (RẤT QUAN TRỌNG VỚI BẠN)
   [params.assets]
     disableHLJS = true
+
+  [params.assets]
+    favicon = "favicon.ico" # Hoặc "icon.png" tùy tên bạn đặt
+    favicon16x16 = "favicon.ico"
+    favicon32x32 = "favicon.ico"
