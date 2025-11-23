@@ -3,6 +3,7 @@ title: "Ứng dụng LQR trong Điều khiển cân bằng"
 date: 2023-11-23
 draft: false
 tags: ["Control Theory", "Python", "LQR"]
+math: true
 ---
 
 Chào mừng đến với blog của tôi. Đây là ví dụ về cách viết bài kỹ thuật.
